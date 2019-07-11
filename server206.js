@@ -42,5 +42,5 @@ http.createServer(function (req, res) {
     });
     fs.createReadStream(path).pipe(res);
   }
-}).listen(1337, '127.0.0.1');
+}).listen(1337, '104.248.150.21');
 console.log('Server running at http://127.0.0.1:1337/');

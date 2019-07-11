@@ -42,5 +42,5 @@ http.createServer(function (req, res) {
         });
         fs.createReadStream(path).pipe(res);
     }
-}).listen(1337, '127.0.0.1');
-console.log('Server running at http://127.0.0.1:1337/ 请打开index.html查看效果');
+}).listen(1338, '104.248.150.21');
+console.log('Server running at http://127.0.0.1:8081/ 请打开index.html查看效果');
